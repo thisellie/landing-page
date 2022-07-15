@@ -44,6 +44,8 @@ a {
     flex: 1;
 }
 
+    /* For .main */
+
 .main {
     background-color: #1F2937;
     display: flex;
@@ -88,6 +90,42 @@ img {
     height: 300px;
     width: auto;
     padding-left: 16px;
+}
+
+    /* For .information */
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    padding: 32px;
+    margin: 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding-bottom: 90px;
+}
+
+#container {
+    width: 180px;
+}
+
+.illustration {
+    aspect-ratio: 1 /1;
+    border: 5px solid #3882F6;
+    border-radius: 16px;
+    margin: 0;
+}
+
+.description {
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+    padding: 8px;
 }
 
 /* For Footer */
