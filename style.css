@@ -71,7 +71,7 @@ h1 {
     margin: 0;
 }
 
-button {
+.left button {
     background-color: #3882F6;
     padding: 6px 32px;
     border-radius: 8px;
@@ -153,6 +153,47 @@ blockquote {
     text-align: right;
 }
 
+    /* For .action */
+
+.action {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.modal {
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 75px;
+    margin: 0 50px;
+    width: 1000px;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: 600;
+    color: #F9FAF8;
+}
+
+.desc {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.action button {
+    background-color: #3882F6;
+    padding: 6px 32px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+    border: 3px solid #F9FAF8;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 /* For Footer */
 
 footer {
@@ -160,5 +201,5 @@ footer {
     text-align: center;
     color: #E5E7EB;
     font-size: 18px;
-    padding: 20px;
+    padding: 48px;
 }
